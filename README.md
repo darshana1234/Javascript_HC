@@ -31,3 +31,5 @@ x is 4; y is 4
 let x2 = 3n;
 const y2 = ++x2;
 x2 is 4n; y2 is 4n
+
+math.random will have values between 0 and 1
