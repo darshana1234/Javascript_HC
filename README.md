@@ -40,3 +40,5 @@ shift removes the number from first position in the array
 slice returns a piece of the array but it doesn’t affect the original array. splice changes the original array by removing, replacing, or adding values and returns the affected values.
 
 When you use each one is up to you. If you have to alter the content of the array, splice is the way to go, but if you just want to obtain a subarray, slice should be your choice.
+
+Whenever a object is made through constructor its singleton
