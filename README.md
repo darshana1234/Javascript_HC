@@ -42,3 +42,19 @@ slice returns a piece of the array but it doesn’t affect the original array. s
 When you use each one is up to you. If you have to alter the content of the array, splice is the way to go, but if you just want to obtain a subarray, slice should be your choice.
 
 Whenever a object is made through constructor its singleton
+
+Global scope is different in vs and in console
+{}- curly braces are used to define scope
+
+1)const addTwo = (num1,num2) => {
+    return num1 + num2
+ }
+
+console.log(addTwo(3,4))
+---------------------------------------------------
+
+2)const addTwo = (num1,num2) =>(num1 + num2)
+console.log(addTwo(3,4));
+
+//use return keyword in console.log when curly braces are used as in 1)
+else no need to use curly braces
